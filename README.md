@@ -7,8 +7,12 @@ Your readme should include the following information. Each student needs to subm
 Programming Partner Name:
 
 Other Collaborators (and kudos to people who were especially helpful):
+Sophia (tutor)
 
 References Used:
+https://www.freecodecamp.org/news/string-to-array-in-java-how-to-convert-a-string-to-an-array-in-java/
+https://www.w3schools.com/java/ref_string_charat.asp
+
 
 
 ## Reflection Questions
