@@ -13,7 +13,7 @@ public class YourTests {
         assertEquals("bpqa qa i amkzmb umaaiom", classUnderTest.encode("this is a secret message"));
         
         classUnderTest = new CaesarCipher(-3);
-        assertEquals("wklv lv d whvw phvvdjh.", classUnderTest.encode("this isn't very secret."));
+        assertEquals("wklv lv d whvw phvvdjh.", classUnderTest.encode("this is a test message."));
     }
 
     @Test
@@ -22,7 +22,7 @@ public class YourTests {
         assertEquals("this is a secret message", classUnderTest.decode("bpqa qa i amkzmb umaaiom"));
         
         classUnderTest = new CaesarCipher(-3);
-        assertEquals("this isn't very secret.", classUnderTest.decode("wklv lv d whvw phvvdjh."));
+        assertEquals("this is a test message.", classUnderTest.decode("wklv lv d whvw phvvdjh."));
 
     }
 }
